@@ -150,10 +150,3 @@ a{
 .links a:hover{
     color: plum;
 }
-
-.web-dev-image {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 450px;
-}
