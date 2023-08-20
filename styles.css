@@ -9,10 +9,7 @@ body {
     background-color:white
 }
 
-.top-container{
-    margin-top: 0;
 
-}
 
 .code-image{
     margin-left: 50px;
@@ -34,8 +31,124 @@ body {
     text-align: center;
 }
 
-.top-container{
-    background-color: ;
+.web-dev-image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 450px;
+}
+
+.middle-container{
+    background-color: rgb(71, 101, 190) ;
+}
+
+.profile-image{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;  
+}
+
+.profile-photo{
+    padding-top: 5rem;
+}
+
+h2{
+    text-align: center;
+    color:white;
+    font-family: Roboto;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.profile-desc{
+    font-family: Roboto;
+    color: white;
+    font-size: 15px;
+    text-align: center;
+}
+
+hr{
+    height: 55px;
+    background-color:rgb(71, 101, 190) ;
+    border:0 ;
+}
+
+ul{
+    list-style-type: none;
+    color: white;
+    font-family: Roboto;
+    text-align: center;
+    padding: 0;
+}
+
+.contact{
+    background-color: white;
+    margin-top: 40px;
+    color: black;
+}
+
+li{
+    padding-bottom: 6px;
+}
+
+.contact-heading{
+    text-align: center;
+    color:black;
+    font-family: Roboto;
+    font-size: 40px;
+    font-weight: bold;
+    padding-top: 30px;
+}
+
+.contact-text{
+    font-family: Roboto;
+    color: black;
+    font-size: 20px;
+    text-align: center;
+    padding-bottom: 30px;
+    margin: 0;
+}
+
+.bottom-container{
+    background-color: rgb(71, 101, 190) ;
+    margin-bottom: 0;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+
+a{
+    color:rgb(71, 101, 190) ;
+    text-decoration: none;
+}  
+
+.footer{
+    font-family: Roboto;
+    color: white;
+    text-align: center;
+}
+
+a{
+    border-color: rgb(71, 101, 190) ;
+    text-align: center;
+    color:white;
+    font-family: Roboto;
+    text-decoration: none;
+}
+
+.links{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 15px;
+}
+
+.links a:hover{
+    color: plum;
 }
 
 .web-dev-image {
