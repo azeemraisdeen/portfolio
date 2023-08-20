@@ -150,7 +150,7 @@ a{
 .links a:hover{
     color: plum;
 }
-/* For Mobile Devices*/
+
 @media (min-width: 319px) and (max-width: 480px) {
     .code-image {
       height: 50px;
