@@ -1,9 +1,10 @@
 body {
     margin: 0;
-    background-color:white
+    background-color:white;
+    min-height: 100vh;
+    width: 100vw;
+    overflow-x: hidden;
 }
-
-
 
 .code-image{
     margin-left: 50px;
@@ -66,8 +67,13 @@ h2{
     text-align: center;
 }
 
+
+.bold-text{
+    font-weight: bold;
+}
+
 hr{
-    height: 55px;
+    height: 40px;
     background-color:rgb(71, 101, 190) ;
     border:0 ;
 }
@@ -80,9 +86,14 @@ ul{
     padding: 0;
 }
 
+#skills-desc{
+    padding-bottom: 30px;
+}
+
+
 .contact{
     background-color: white;
-    margin-top: 40px;
+    margin-top: 0px;
     color: black;
 }
 
@@ -102,7 +113,7 @@ li{
 .contact-text{
     font-family: Roboto;
     color: black;
-    font-size: 20px;
+    font-size: 15px;
     text-align: center;
     padding-bottom: 30px;
     margin: 0;
@@ -145,6 +156,20 @@ a{
     color: plum;
 }
 
+h3{
+    text-align: center;
+    color: black;
+    font-size: 1rem;
+    font-family: Roboto;
+}
+
+.education{
+    background-color: white;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+/* For Mobile Devices*/
 @media (min-width: 319px) and (max-width: 480px) {
     .code-image {
       height: 50px;
@@ -154,6 +179,7 @@ a{
 
     .name{
         font-size: 2rem;
+        font-weight: bold;
     }
 
     .role{
@@ -175,19 +201,25 @@ a{
     }
 
     .profile-desc{
-        font-size: 1rem;
+        font-size: 0.8rem;
         text-align: center;
         padding-left: 15px;
         padding-right: 15px;
     }
 
+    .education h2{
+        font-size: 1.5rem;
+    }
+
     .contact-text{
-        font-size: 1rem;
+        font-size: 0.8rem;
         text-align: center;
+        padding-left: 15px;
+        padding-right: 15px;
     }
 
     .contact-heading{
-        font-size: 1.5em;
+        font-size: 1.5rem;
     }
 
     .message-icon{
@@ -206,6 +238,7 @@ a{
 
   }
 
+  /* For iPads and Tablets */
   @media (min-width: 481px) and (max-width: 1200px) {
     .code-image {
         height: 100px;
@@ -217,7 +250,7 @@ a{
       }
   
     .role{
-        font-size: 3rem;
+        font-size: 2.5rem;
       }
   
     .web-dev-image{
@@ -226,12 +259,12 @@ a{
       }
   
     .profile-image{
-        width: 150px;
-        height: 150px;
+        width: 180px;
+        height: 180px;
       }
   
     .title{
-        font-size: 3em;
+        font-size: 4em;
       }
   
     .profile-desc{
@@ -240,6 +273,15 @@ a{
         padding-left: 15px;
         padding-right: 15px;
       }
+
+    .education h2{
+        font-size: 4rem;
+    }
+
+    .contact{
+        padding-top: 5px;
+        padding-bottom: 25px;
+    }
   
     .contact-text{
         font-size: 2rem;
@@ -249,7 +291,7 @@ a{
       }
   
     .contact-heading{
-        font-size: 3em;
+        font-size: 4rem;
       }
   
     .message-icon{
